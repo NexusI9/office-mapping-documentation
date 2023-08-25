@@ -1,0 +1,49 @@
+main{
+
+    h1{
+        text-align: center;
+        text-wrap: balance;
+    }
+
+    ol{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        li{
+            padding-left: 15px;
+            &::marker{
+                color: var(--rbx-red);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+header{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+
+    .back{
+        display: flex;
+        flex-direction: row;
+        color:var(--rbx-tp-black);
+        text-transform: lowercase;
+        font-weight: 600;
+        align-items: center;
+        gap: 5px;
+    
+        svg{
+            width: 20px;
+            height: 20px;
+            fill:var(--rbx-tp-black);
+        }
+    }
+
+
+}

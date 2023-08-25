@@ -38,6 +38,13 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --rbx-blue: #181C21;
+  --rbx-red: #DA404C;
+  --rbx-white: #F6F6F6;
+  --rbx-tp-white: #50555B;
+  --rbx-tp-white-50: #32363b;
+  --rbx-tp-black: #8D8F97;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,10 +80,27 @@
   }
 }
 
+
+main {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 600px;
+  margin: auto;
+}
+
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+hr{
+  border-color: var(--rbx-tp-white);
 }
 
 html,
@@ -86,19 +110,15 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--rbx-white);
+  background: var(--rbx-blue);
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
