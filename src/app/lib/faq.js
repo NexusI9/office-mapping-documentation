@@ -4,16 +4,16 @@ export default [
       route: 'start'
     },
     {
+      label: 'Les commandes ne fonctionnent pas',
+      route: 'keys'
+    },
+    {
       label: 'Comment changer la musique de fond ?',
       route: 'soundtrack'
     },
     {
       label: 'Le raccourci MapManager ne fonctionne pas',
       route: 'shortcut'
-    },
-    {
-      label: 'Les touches ne fonctionnent pas',
-      route: 'keys'
     },
     {
       label: 'Ou trouver les fichiers sources?',

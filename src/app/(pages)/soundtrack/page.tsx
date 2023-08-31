@@ -1,4 +1,6 @@
-export default () => {
+import Image from "next/image";
+
+function Soundtrack(){
 
 
     return (<>
@@ -22,10 +24,13 @@ export default () => {
                 Ouvrir le fichier <b><i>config.json</i></b>
             </li>
             <li>
-                Sous la clé "Soundtrack" modifier la valeur de "volume"
+                Sous la clé &quot;soundtrack&quot; modifier la valeur de &quot;volume&quot;
                 <br/>
                 Attention, la valeur doit être comprise entre 0 et 1.
+                <Image src="/mapping/screenshots/volume.webp" alt="config volume" width="600" height="450" />
             </li>
         </ol>
     </>);
 }
+
+export default Soundtrack;

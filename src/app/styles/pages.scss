@@ -10,6 +10,17 @@ main{
         flex-direction: column;
         gap:20px;
         li{
+            img{
+                max-width: 100%;
+                height: fit-content;
+                margin: 20px 0;
+                object-fit: contain;
+            }
+            a{
+                color:var(--rbx-red);
+                text-decoration: underline;        
+            }
+        
             padding-left: 15px;
             &::marker{
                 color: var(--rbx-red);
@@ -26,6 +37,9 @@ header{
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
+    background: var(--rbx-black);
+    position: sticky;
+    top:0;
 
 
 
@@ -46,4 +60,12 @@ header{
     }
 
 
+}
+
+
+.f-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
