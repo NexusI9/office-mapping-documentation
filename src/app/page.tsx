@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
 import styles from './page.module.scss';
 import ROUTE from '@/app/lib/faq';
@@ -8,7 +8,7 @@ import COMMANDES from '@/app/lib/commands';
 function Home(){
   return (<>
       <header className={styles.header}>
-        <Image src='/mapping/logo.png' alt='logo' width='100' height='125' />
+        <img src='/mapping/logo.png' alt='logo' width='100' height='125' />
         <h1>Redbox Mapping assistance</h1>
       </header>
 

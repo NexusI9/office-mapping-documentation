@@ -4,7 +4,7 @@ import '@/app/styles/pages.scss'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { labelFromPathname } from '@/app/lib/utils';
-import Image from 'next/image';
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </svg>
             Back to homepage
           </Link>
-          <Image src='/logo.png' width='57' height='71' alt='logo'/>
+          <img src='/mapping/logo.png' width='57' height='71' alt='logo'/>
           </header>
 
           <h1>{labelFromPathname(pathname)}</h1>

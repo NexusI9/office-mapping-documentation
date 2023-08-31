@@ -1,6 +1,6 @@
 export default [
     {
-      label: 'Comment démarrer le mapping ?',
+      label: 'Comment démarrer le mapping?',
       route: 'start'
     },
     {
@@ -8,7 +8,7 @@ export default [
       route: 'keys'
     },
     {
-      label: 'Comment changer la musique de fond ?',
+      label: 'Comment changer la musique de fond?',
       route: 'soundtrack'
     },
     {

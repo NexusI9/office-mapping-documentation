@@ -9,7 +9,7 @@ function Start(){
             <li>S&apos;assurer que la source est bien sur le PC et non sur le Chrome Cast (source: HDMI-1)</li>
             <li>
                 Sur le bureau lancer le raccourci <b>MapManager</b>
-                <Image src="/mapping/screenshots/shortcut.webp" alt="shortcut" width="653" height="489" />
+                <img src="/mapping/screenshots/shortcut.webp" alt="shortcut" width="653" height="489" />
             </li>
             <li>
                 <p>Attendre environ 10 secondes le temps que le serveur se lance.

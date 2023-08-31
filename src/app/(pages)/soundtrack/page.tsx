@@ -27,7 +27,7 @@ function Soundtrack(){
                 Sous la clé &quot;soundtrack&quot; modifier la valeur de &quot;volume&quot;
                 <br/>
                 Attention, la valeur doit être comprise entre 0 et 1.
-                <Image src="/mapping/screenshots/volume.webp" alt="config volume" width="600" height="450" />
+                <img src="/mapping/screenshots/volume.webp" alt="config volume" width="600" height="450" />
             </li>
         </ol>
     </>);
