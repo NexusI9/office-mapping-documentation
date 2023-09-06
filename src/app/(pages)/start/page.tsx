@@ -17,8 +17,11 @@ function Start(){
                 Si après 10 secondes Google Chrome ne s&apos;est pas lancé, appuyer sur ENTRER
                 </p>
             </li>
-            <li>Une fois chrome lancer, vous pouvez y accéder sur votre mobile à partir de l&apos;ip suivante: 
-                <br/><b>192.168.0.106:8000</b></li>
+            <li>
+                Une fois chrome lancé, vous pouvez y accéder sur mobile à partir de l&apos;ip affichée en haut à droite de l&apos;écran:
+                <img src="/mapping/screenshots/ip.webp" alt="shortcut" width="600" height="450" />
+            </li> 
+            
             <li>Éventuellement modifier les informations souhaitées (tagline, logo du client)
             </li>
             <li>Cliquer sur <b>Lancer le mapping</b></li>
