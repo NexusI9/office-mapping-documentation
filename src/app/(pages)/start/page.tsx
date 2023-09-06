@@ -17,7 +17,7 @@ function Start(){
                 Si après 10 secondes Google Chrome ne s&apos;est pas lancé, appuyer sur ENTRER
                 </p>
             </li>
-            <li>Une fois chrome lancer, vous pouvez y accéder sur votre mobile à partir de l'ip suivante: 
+            <li>Une fois chrome lancer, vous pouvez y accéder sur votre mobile à partir de l&apos;ip suivante: 
                 <br/><b>192.168.0.106:8000</b></li>
             <li>Éventuellement modifier les informations souhaitées (tagline, logo du client)
             </li>
