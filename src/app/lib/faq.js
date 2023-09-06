@@ -16,8 +16,12 @@ export default [
       route: 'shortcut'
     },
     {
-      label: 'Ou trouver les fichiers sources?',
+      label: 'Fichiers sources et versions logiciels',
       route: 'files'
+    },
+    {
+      label: 'Comment ajuster le mapping?',
+      route: 'mapping'
     }
   
   ];

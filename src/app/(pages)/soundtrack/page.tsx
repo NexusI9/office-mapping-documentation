@@ -9,7 +9,7 @@ function Soundtrack(){
             <li>Aller sur le serveur au chemin suivant: <br/>
             REDBOXMEDIA_server / Design / RedBox Media / Mapping / MapManager / src / assets
             </li>
-            <li>Remplacer le fichier soundtrack.mp3 par le nouveau</li>
+            <li>Remplacer le fichier <b>soundtrack.mp3</b> par le nouveau</li>
         </ol>
 
         <hr/>
